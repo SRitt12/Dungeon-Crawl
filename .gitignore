@@ -9,3 +9,9 @@ export_presets.cfg
 # Mono-specific ignores
 .mono/
 data_*/
+.import/icon.png-487276ed1e3a0c39cad0279d744ee560.md5
+.import/icon.png-487276ed1e3a0c39cad0279d744ee560.md5
+.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex
+.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex
+default_env.tres
+icon.png.import
