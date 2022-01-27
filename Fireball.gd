@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-var speed = 750
+var speed = 450
 var velocity = Vector2()
 
 
@@ -16,3 +16,11 @@ func start(pos, dir):
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _physics_process(delta):
 	var collision = move_and_collide(velocity * delta)
+	if collision:
+		$CollisionShape2D/AnimatedSprite.animation = "explode"
+		
+
+
+func _on_AnimatedSprite_animation_finished():
+	if $CollisionShape2D/AnimatedSprite.animation == "explode":
+		queue_free()

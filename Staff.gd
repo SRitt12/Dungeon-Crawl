@@ -21,5 +21,5 @@ func get_input():
 
 func shoot():
 	var f = fireball.instance()
-	f.start($CollisionShape2D/Muzzle.global_position, rotation)
-	get_parent().add_child(f)
+	f.start($Muzzle.global_position, rotation)
+	get_tree().get_current_scene().add_child(f)
