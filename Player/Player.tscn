@@ -38,8 +38,6 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 scale = Vector2( 1.5, 1.5 )
 frames = SubResource( 1 )
-animation = "run"
-frame = 1
 speed_scale = 2.0
 __meta__ = {
 "_edit_group_": true
