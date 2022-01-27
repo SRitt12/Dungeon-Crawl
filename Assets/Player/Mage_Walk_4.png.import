@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/knight_f_run_anim_f0.png-05229af9d4985182df6d8471b28c6704.stex"
+path="res://.import/Mage_Walk_4.png-7f01741b1bd07fd25b7161417ea20e61.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/knight_f_run_anim_f0.png"
-dest_files=[ "res://.import/knight_f_run_anim_f0.png-05229af9d4985182df6d8471b28c6704.stex" ]
+source_file="res://Assets/Player/Mage_Walk_4.png"
+dest_files=[ "res://.import/Mage_Walk_4.png-7f01741b1bd07fd25b7161417ea20e61.stex" ]
 
 [params]
 

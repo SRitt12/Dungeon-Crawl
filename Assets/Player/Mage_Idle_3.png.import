@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/knight_f_run_anim_f3.png-55c163558c563eb15f93f40d875cd954.stex"
+path="res://.import/Mage_Idle_3.png-2784aa4523427bac53e2b8d3ccc6b639.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/knight_f_run_anim_f3.png"
-dest_files=[ "res://.import/knight_f_run_anim_f3.png-55c163558c563eb15f93f40d875cd954.stex" ]
+source_file="res://Assets/Player/Mage_Idle_3.png"
+dest_files=[ "res://.import/Mage_Idle_3.png-2784aa4523427bac53e2b8d3ccc6b639.stex" ]
 
 [params]
 

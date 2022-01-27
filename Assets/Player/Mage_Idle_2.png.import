@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/knight_f_idle_anim_f0.png-120d1fca845599bcdd620e0e5fdc8fc3.stex"
+path="res://.import/Mage_Idle_2.png-582d2a7afe708ba2ba738f1eb9d1786e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/knight_f_idle_anim_f0.png"
-dest_files=[ "res://.import/knight_f_idle_anim_f0.png-120d1fca845599bcdd620e0e5fdc8fc3.stex" ]
+source_file="res://Assets/Player/Mage_Idle_2.png"
+dest_files=[ "res://.import/Mage_Idle_2.png-582d2a7afe708ba2ba738f1eb9d1786e.stex" ]
 
 [params]
 
@@ -31,5 +31,5 @@ process/invert_color=false
 process/normal_map_invert_y=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0
