@@ -1,6 +1,6 @@
 extends Node2D
 
-var fireball = preload("res://Fireball.tscn")
+var fireball = preload("res://Player/Fireball.tscn")
 var speed = 200
 var velocity = Vector2()
 

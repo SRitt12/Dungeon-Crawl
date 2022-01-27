@@ -1,8 +1,8 @@
 [gd_scene load_steps=17 format=2]
 
-[ext_resource path="res://Fireball.gd" type="Script" id=1]
-[ext_resource path="res://Assets/flame_horizontal.png" type="Texture" id=2]
-[ext_resource path="res://Assets/flame_exposion.png" type="Texture" id=3]
+[ext_resource path="res://Player/Fireball.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Player/flame_horizontal.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Player/flame_exposion.png" type="Texture" id=3]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 5.37484
@@ -78,7 +78,6 @@ shape = SubResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="CollisionShape2D"]
 frames = SubResource( 6 )
-frame = 2
 speed_scale = 4.0
 playing = true
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/flame_horizontal.png-614c1f6ac2eaf6abca7be2c8e84fff56.stex"
+path="res://.import/flame_horizontal.png-a6f39d236c3d6b6022552deb14f3fa31.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/flame_horizontal.png"
-dest_files=[ "res://.import/flame_horizontal.png-614c1f6ac2eaf6abca7be2c8e84fff56.stex" ]
+source_file="res://Assets/Player/flame_horizontal.png"
+dest_files=[ "res://.import/flame_horizontal.png-a6f39d236c3d6b6022552deb14f3fa31.stex" ]
 
 [params]
 
