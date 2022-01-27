@@ -31,7 +31,10 @@ func _physics_process(delta):
 	# Playing correct animation based on current activity 	
 	if velocity.x !=0 or velocity.y !=0 :
 		$AnimatedSprite.animation = "run"
-		$AnimatedSprite.flip_v = false
-		$AnimatedSprite.flip_h = velocity.x < 0	
+		
 	else:
 		$AnimatedSprite.animation = "default"
+	
+	# Face sprite towards mouse	
+	$AnimatedSprite.flip_h = global_position.x - get_global_mouse_position().x > 0	
+		
