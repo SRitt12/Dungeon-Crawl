@@ -36,6 +36,7 @@ func sightCheck():
 		var space_state = get_world_2d().direct_space_state
 		var sight_check = space_state.intersect_ray(position, player.position, [self], collision_mask)
 		if sight_check:
+			print(str(player.position) + ", " + str(position))
 			if sight_check.collider.name == "Player":
 				print("Player in sight")
 				player_in_los = true
